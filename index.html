@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Profile Menu">
+    <link rel="icon" sizes="192x192" href="images/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="profile-menu">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#2F3BA2">
+
+
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+
+      <h2>Profile Menu</h2>
+
+    <div id="ProfileMenu">
+        <div class="tab profile-panel">
+          <input id="tab-four" type="radio" name="tabs2">
+          <label for="tab-four">
+            <i class="faf icon-user-male"></i>Profile
+
+          </label>
+          <div class="faf tab-content">
+            <p><i class="faf icon-right-dir"></i> Posts</p>
+            <p><i class="faf icon-right-dir"></i> Wall</p>
+            <p><i class="faf icon-right-dir"></i> Status</p>
+            <p><i class="faf icon-right-dir"></i> Video</p>
+          </div>
+        </div>
+
+        <div class="tab profile-panel">
+          <input id="tab-five" type="radio" name="tabs2">
+          <label for="tab-five">
+            <i class="faf icon-mail "></i>Messages<span>32</span>
+          </label>
+          <div class="tab-content">
+            <p><i class="faf icon-right-dir"></i> Inbox</p>
+            <p><i class="faf icon-right-dir"></i> Sent</p>
+            <p><i class="faf icon-right-dir"></i> Drafts</p>
+          </div>
+        </div>
+
+        <div class="tab profile-panel">
+          <input id="tab-six" type="radio" name="tabs2">
+          <label for="tab-six">
+            <i class="faf icon-cog-outline"></i>Settings</label>
+          <div class="tab-content">
+            <p><i class="faf icon-right-dir"></i> IMAP</p>
+            <p><i class="faf icon-right-dir"></i> SMTP</p>
+            <p><i class="faf icon-right-dir"></i> POP</p>
+            <p><i class="faf icon-right-dir"></i> Signature</p>
+          </div>
+        </div>
+
+        <div class="tab profile-panel">
+          <label for="tab-six">
+
+            <i class="faf icon-power"></i>Power</label>
+          <div class="tab-content">
+            <p>------------------------------------------------</p>
+          </div>
+        </div>
+  </div> <!-- END OF ProfileMenue -->
+
+  <!-- build:js scripts/main.min.js -->
+  <script src="scripts/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="scripts/jquery.min.js"><\/script>')</script>
+  <script src="scripts/bootstrap.min.js"></script>
+  <script src="scripts/main.js"></script>
+  <!-- endbuild -->
+
+  </body>
+</html>
