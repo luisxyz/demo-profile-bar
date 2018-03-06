@@ -85,7 +85,7 @@ label {
     background: linear-gradient(to bottom, #767c8a 0%, #666c7c 5%, #505666 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#767c8a', endColorstr='#505666',GradientType=0 ); }
 
-[class^="icon-"]:before, [class*=" icon-"]:before {
+.faf, [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: fontello;
   font-style: normal;
   font-weight: normal;
