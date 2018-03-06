@@ -44,7 +44,8 @@ body {
 h2 {
   color: #282828;
   text-align: center;
-  margin: 20px auto; }
+  margin: 20px auto;
+  font-family: PT-Sans, Helvetica, Arial, sans-serif; }
 
 /* Acordeon styles */
 .tab {
